@@ -5,7 +5,10 @@ const reports=[
  ['traceability','Drug traceability','Product delivery and offtake across brands, customers and regions.'],
  ['market','Omnichannel market insights','Market size, growth, channel structure and manufacturer performance.'],
  ['replenishment','Daily store replenishment','Listing gaps, stockouts, targets and field-team coverage.'],
- ['mcp','MCP access governance','Personal-token management in the original interface. The displayed token is a nonfunctional demo placeholder.']
+ ['mcp','MCP access governance','Personal-token management in the original interface. The displayed token is a nonfunctional demo placeholder.'],
+ ['execution','Execution logs','Plans with owners, targets and review dates, captured in the original execution log.'],
+ ['o2o-ai','O2O AI analysis','The original analysis workflow, demonstrated with synthetic data and a scripted AI response.'],
+ ['ai-review','Execution-plan AI review','The original AI review workflow, demonstrated with synthetic plans and a scripted response.']
 ];
 const gallery=document.getElementById('gallery'),film=document.getElementById('film'),video=film.querySelector('video');
 function showReport(index){const [file,title,description]=reports[index];document.getElementById('report-select').value=String(index);document.getElementById('gallery-title').textContent=title;document.getElementById('report-description').textContent=description;const img=document.getElementById('report-image');img.src=`assets/real-${file}.png`;img.alt=`Original ${title} interface with synthetic demo data`;document.getElementById('report-full').href=img.src;document.getElementById('report-full').setAttribute('aria-label',`Open full-size ${title} screenshot`)}
