@@ -7,7 +7,7 @@ const reports=[
  ['replenishment','Daily store replenishment','Listing gaps, stockouts, targets and field-team coverage.'],
  ['mcp','MCP access governance','Manage permissions and access for connected AI tools.'],
  ['execution','Execution logs','Track plans, owners, targets and review dates.'],
- ['o2o-ai','O2O AI analysis','Review O2O performance and identify next actions.'],
+ ['o2o-keywords','O2O keyword trends','Daily search demand, advertising spend and cost ratios · September 1–30, 2026.'],
  ['ai-review','Execution-plan AI review','Review execution progress and plan next actions.']
 ];
 const gallery=document.getElementById('gallery'),film=document.getElementById('film'),video=film.querySelector('video');
