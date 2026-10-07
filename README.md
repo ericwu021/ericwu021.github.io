@@ -1,6 +1,8 @@
 # Agentic BI — Eric Wu
 
-A personal portfolio showcasing data and AI product leadership.
+Agentic BI, conceived, built and led by Eric Wu — Founder & Product Lead.
+
+I created the platform to rethink how businesses turn data into decisions and daily action, leading product strategy, design, engineering, governance and adoption.
 
 **[Explore Agentic BI →](https://ericwu021.github.io/)**
 
