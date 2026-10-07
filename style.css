@@ -15,3 +15,5 @@
 #film video{margin-top:24px}
 
 .ai-previews img[src*="o2o-keywords"]{object-fit:contain;object-position:center}
+
+.showcase-credit{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;background:#f5f5f7;border-radius:0 0 10px 10px;font-size:12px;line-height:1.5;color:#515154}.showcase-credit>a{color:#0066cc;white-space:nowrap}.showcase-credit>a:hover{text-decoration:underline}@media(max-width:600px){.showcase-credit{align-items:flex-start;flex-direction:column;gap:3px;font-size:11px}}
